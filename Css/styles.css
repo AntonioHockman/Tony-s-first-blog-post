@@ -3,7 +3,46 @@
     padding: 0;
     margin: 0;
 }
-.all-content{
+/*body {display:flex;
+    }*/
+body{
+    background-image: url(https://images.theconversation.com/files/557506/original/file-20231103-15-cq6i0x.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2060%2C1452&q=45&auto=format&w=926&fit=clip);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    
+}
+
+.mind {
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color:blue;
+
+}
+
+
+body .blog-entry{
+    /*display:flex;*/
+ position:fixed;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ Color:black;
+ font-size: large;
+ z-index: 1;
+ background-color: aqua;
+}
+
+
+
+
+
+
+
+
+/*.all-content{
     display:flex;
 }
 
@@ -24,7 +63,7 @@ background-color: black;
     margin-left:auto;
     margin-right: auto;
 
-}
+}*/
     
 
    
