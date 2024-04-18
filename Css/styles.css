@@ -8,7 +8,7 @@
 body{
     background-image: url(https://images.theconversation.com/files/557506/original/file-20231103-15-cq6i0x.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2060%2C1452&q=45&auto=format&w=926&fit=clip);
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
     position: relative;
     
@@ -18,7 +18,7 @@ body{
     display: flex;
 justify-content: center;
 align-items: center;
-background-color:blue;
+background-color:rgb(12, 12, 199);
 
 }
 
@@ -32,8 +32,11 @@ body .blog-entry{
  Color:black;
  font-size: large;
  z-index: 1;
- background-color: aqua;
+ background-color: rgb(12, 12, 199);
+ width:300px;
+ height: 300px;
 }
+
 
 
 
