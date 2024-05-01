@@ -45,6 +45,19 @@ function getBlogPost(event) {
 
     console.log(blogArray);
     console.log(blogArraySerialized);
+
+    window.location.href = "./blog.html";
 };
 
 myButton.addEventListener("click",getBlogPost);
+
+// Remove the form submit event listener and handle the form submission directly in getBlogPost function
+// document.getElementById("myForm").addEventListener("submit", function(event) {
+    //     event.preventDefault();
+    //     window.location.href = "./blog.html";
+// });
+    
+
+
+
+

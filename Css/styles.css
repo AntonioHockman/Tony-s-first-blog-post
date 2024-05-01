@@ -5,22 +5,22 @@
 }
 /*body {display:flex;
     }*/
-body{
+ body{
     background-image: url(https://images.theconversation.com/files/557506/original/file-20231103-15-cq6i0x.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2060%2C1452&q=45&auto=format&w=926&fit=clip);
     background-size:100%;
     background-repeat: repeat;
     background-attachment: scroll;
     position: relative;
     
-}
-
+} 
+ 
 .mind {
     display: flex;
 justify-content: center;
 align-items: center;
-background-color:rgb(12, 12, 199);
+ background-color:rgb(12, 12, 199); 
 
-}
+} 
 
 
 body .blog-entry{

@@ -26,19 +26,20 @@ for (let index = 0; index < blogArray.length; index++) {
     //styling for a divider for the blog layout
     const divider = document.createElement('hr');
     const titleDivider = document.createElement('hr');
+    
     textArea.append(divider);
-    divider.style.border = '1px solid white';
+    //divider.style.border = '1px solid white';
     
     
     blogPostContainer.append(title,textArea,userName);
     blogPostList.append(blogPostContainer);
 
-    blogPostContainer.style.backgroundColor = 'lightblue';
-   blogPostContainer.style.color = 'white';
-   blogPostContainer.style.padding = '10px';
-   blogPostContainer.style.border = '1px solid blue';
+//     blogPostContainer.style.backgroundColor = 'lightblue';
+//    blogPostContainer.style.color = 'white';
+//    blogPostContainer.style.padding = '10px';
+//    blogPostContainer.style.border = '1px solid blue';
 
-   textArea.style.color = 'white';
+//    textArea.style.color = 'white';
    
    }
 

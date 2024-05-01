@@ -5,14 +5,14 @@
 }
 /*body {display:flex;
     }*/
-body{
+/* body{
     background-image: url(https://images.theconversation.com/files/557506/original/file-20231103-15-cq6i0x.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2060%2C1452&q=45&auto=format&w=926&fit=clip);
     background-size:100%;
     background-repeat: repeat;
     background-attachment: scroll;
     position: relative;
     
-}
+} */
 
 /* set my main div to 1100 vh so my foooter would stay to the bottom*/
 #blog-post{
@@ -40,10 +40,28 @@ body{
 }
 /* my two modes*/
 .dark{
-    background-color: rgb(61, 168, 204, 0.5);
-    
+    background-color: rgb(42, 35, 35);
+    color:#f0f0f0;
 }
 
 .light{
-    background-color: rgb(206, 206, 37, 0.5);
+    background-color: rgb(61, 168, 204, 0.5);
+     color:#181717;
+}
+
+h2{
+    margin :10px;
+}
+ p {
+    margin:20px;
+    /* border: 5px solid white;
+color: white; */
+    /* border-style: solid;
+    border-width: 5px;
+     color: white ; */
+    
+}
+.backButton {
+    width: 100px;
+    height: 50px;
 }
